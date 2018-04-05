@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
                 if (args == null) {
                     return;
                 }
-                
+
                 if (mWeatherJson != null) {
                     deliverResult(mWeatherJson);
                 } else {
